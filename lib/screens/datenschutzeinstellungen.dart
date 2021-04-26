@@ -9,7 +9,7 @@ class Datenschutzeinstellungen extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 44, 78, 144),
           title: Text("Datenschutzeinstellungen")),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(24.0),
         child: Container(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -17,7 +17,7 @@ class Datenschutzeinstellungen extends StatelessWidget {
               Text(
                 "Wir benötigen Ihre Zustimmung",
                 style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
                     color: Color.fromARGB(255, 44, 78, 144)),
               ),
