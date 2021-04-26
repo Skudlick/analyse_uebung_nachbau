@@ -1,3 +1,4 @@
+import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:flutter/material.dart';
 
 class Datenschutzeinstellungen extends StatelessWidget {
@@ -65,6 +66,16 @@ class Datenschutzeinstellungen extends StatelessWidget {
                     ),
                   ),
                   heightFactor: 3,
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "Datenschutzinformation",
+                style: TextStyle(
+                  color: Color.fromARGB(255, 2, 2, 255),
+                  decoration: TextDecoration.underline
                 ),
               ),
             ],
