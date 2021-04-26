@@ -21,32 +21,48 @@ class Datenschutzeinstellungen extends StatelessWidget {
                     color: Color.fromARGB(255, 44, 78, 144)),
               ),
               SizedBox(
-                height: 10,
+                height: 15,
               ),
               Text(
                 "Wir verwenden verschiedene Technologien für die korrekte Funktionsweise sowie um die Zugriffe auf unsere App zu Analysieren, Inhalte und Anzeigen zu personalisieren sowie Funktionen für soziale Medien anbieten zu können.\n",
                 style: TextStyle(
-                    fontSize: 20, color: Color.fromARGB(255, 44, 78, 144)),
+                    fontSize: 18, color: Color.fromARGB(255, 44, 78, 144)),
               ),
               Text(
                 "Mit dem Klick auf \"Einverstanden\" willigen Sie in die Erhebung und Verarbeitung Ihrer nutzer- oder gerätebezogene Online-Kennung(z.B. IDs) und Nutzungsdaten für diese Zwecke ein, sofern es einer Einwilligung bedarf. Sie können die aktuellen Einstellungen unter \"Details anzeigen\" einsehen und ändern. Weitere Informationen finden Sie in unserer Dateschutzinformation.\n",
                 style: TextStyle(
-                    fontSize: 20, color: Color.fromARGB(255, 44, 78, 144)),
+                    fontSize: 18, color: Color.fromARGB(255, 44, 78, 144)),
               ),
               ElevatedButton(
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(
+                      255, 198, 215, 245)),
+                ),
                 child: Center(
                   child: Text(
-                    "Details anzeigen",
+                    "Details Anzeigen",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      color: Color.fromARGB(255, 44, 78, 144),
+                    ),
                   ),
                   heightFactor: 3,
                 ),
               ),
               SizedBox(height: 3),
               ElevatedButton(
-                style: ButtonStyle(),
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all<Color>(Color.fromARGB(255, 44, 78, 144)),
+                ),
                 child: Center(
                   child: Text(
                     "OK",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
                   ),
                   heightFactor: 3,
                 ),
